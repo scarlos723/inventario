@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+}
+
+
+.container{
+    padding: 20px;
+    margin: 20px 10px;
+    
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.ft-cont{
+    margin: 20px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.head-cont{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    
+    font-size: 20px;
+}
+
+.head-cont>input{
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+    color: grey;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+/* Estilos de tablas */
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th , td{
+    padding: 10px;
+}
+table tbody tr:nth-child(odd){
+    background-color: #E1DEDE;
+}
+thead{
+    background-color: #F6F6F6;
+    border-bottom: solid 4px;
+}
+
+
+  
+
+
+
+    
+/* Basic styling */ 
+body { font-family: sans-serif; } 
+
+nav ul{
+    display: flex;
+    margin: 0px 10px;
+    background-color: #282828;
+    list-style: none;
+    ;
+    
+}
+.item > a , .logo > a{
+    color: white;
+    text-decoration: none; 
+}
+li{
+    padding: 14px 10px;
+    
+}
+.item:hover{
+    background-color: #464646;
+}
+
+.logo{
+    width: 200px;
+    text-align: center;
+    
+}
+
+
+
+
+.section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    /* justify-content: center; */
+    
+    align-items: center;
+    
+}
+
+.menu{
+    
+    background-color: #282828;
+    height: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.log_option{
+     
+    margin-left: auto;
+    color: gray;
+    font-size: 13px; 
+}
+.log_option > a{
+    text-decoration: none;
+}
+
+.log_option > a{
+    color:gray;
+    margin: 0px 10px;
+}
+
+.option:hover{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color:#464646;
+    color: white;
+    
+}
+
+
+.header{
+    
+    background-color: yellow;
+}
+
+.login_ft{
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+
+/* estilos del login */
+.login_box{
+    display: flex;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+    box-shadow: 3px 5px 5px 1px #C6C6C6;
+
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#text_login{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+.item_login{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+}
+.item_login > input{
+    background-image: url("../images/user.svg");
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+
+    
+    text-indent: 30px;
+    width: 90%;
+    padding: 5px 0px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+
+/* estilos del cuadro de  datos */
+.date_box{
+    display: flex;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+    box-shadow: 3px 5px 5px 1px #C6C6C6;
+
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+#text_date{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.item_date{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+   
+}
+.item_date > input{
+    
+    margin: 10px;
+    
+    text-indent: 30px;
+    width: 90%;
+    padding: 5px 0px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+
+
+/* Estilos de botones */
+.button_blue{
+    background-color: #2F84D3 ;
+    border: transparent;
+    border-radius: 7px; 
+    padding: 5px 10px ;
+    color: white;
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D; /* Red */
+    }
+    .menu_ft{
+        flex-direction: column;
+        
+    }
+
+    .options_ft{
+        background-color: #282828;
+        height: 50px;
+        width: 100%;
+        position: relative;
+    }
+    nav ul {
+        display: block;
+        
+      }
+    .item{
+        background-color: #282828;
+    }
+    .log_option{
+        background-color: #282828;
+    }
+    
+  }
+   
+/* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 980px) {
+    body {
+        background-color: #F5CF8E;
+        /* Yellow */
+    }
+
+ 
+    
+
+    
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+      /*background-color: #B2D6FF;*/
+      /* Blue */
+    }
+    
+}
