@@ -530,8 +530,12 @@ a:hover{
         width: 100%;
         position: relative;
     }
+    nav{
+        margin-bottom: ;
+    }
     nav ul {
         display: block;
+        
         
       }
     .item{
@@ -541,6 +545,7 @@ a:hover{
         background-color: #282828;
     }
 
+    /* Estilo Tablas */
     table {
         width:100%;
     }
@@ -563,6 +568,53 @@ a:hover{
         content: attr(data-th);
         display: block;
         text-align:center;
+    }
+
+    /* Estilo Botones */
+    .button_blue{
+        background-color: #2F84D3 ;
+        border: transparent;
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 9px;
+    }
+    .button_red{
+        background-color: #D32F2F ;
+        border: transparent;
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 9px;
+    }
+    
+    .button_green{
+        background-color: #6BCB5B ;
+        border: transparent;
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .button_yellow{
+        background-color: #F8F14B ;
+        border: transparent;
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: black;
+        font-size: 9px;
+    }
+    
+    
+    .button_gray{
+        background-color: #C6C6C6 ;
+        border: transparent;
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 9px;
+    
     }
     
   }
