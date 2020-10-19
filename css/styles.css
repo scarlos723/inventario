@@ -24,14 +24,41 @@
     margin: 20px 40px;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+
+ #datos_product>input{
+    opacity: 0.5;
+    margin:10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
     
 }
+
+#inp_nombre{
+    width: 200px;
+}
+#inp_marca{
+    width: 80px;
+}
+#inp_modelo{
+    width: 80px;
+}#inp_precio{
+    width: 80px;
+}#inp_cantidad{
+    width: 90px;
+}
+
+
+   
+
 
 .flex-cont{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    
 }
 
 .head-cont{
@@ -51,6 +78,97 @@
     font-size: 15px;
 }
 
+
+
+.ft-dat{
+    justify-content: right;
+}
+
+.cotiza_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.cotiza_container>table{
+    width: 60%;
+
+}
+
+.ft-button{
+    display: flex;
+    
+    justify-content: space-between;
+    padding:0px 150px;
+}
+.ft-button>button{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.ft-cards{
+    display:flex ;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.container_flex{
+    display: flex;
+    
+    
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 8px;
+    border: 1px solid gray;
+    box-shadow: 3px 5px 5px 1px #C6C6C6;
+
+}
+.box-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+
+}
+.ft-mid{
+    width: 600px;
+    
+}
+.item_client{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: left;
+    margin: 5px;
+}
+form>p{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    
+
+}
+
+.box-client>img{  
+    width: 200px;
+    height: 200px;  
+
+}
+.ft-end{
+    justify-content: end;
+}
+.ft-row-cont{
+    flex-direction: row-reverse;
+    width: 100%;
+    
+}
+
 /* Estilos de tablas */
 table{
     text-align: center;
@@ -68,7 +186,10 @@ thead{
     background-color: #F6F6F6;
     border-bottom: solid 4px;
 }
-
+td>input{
+    width:40px ;
+    text-align: center;
+}
 
   
 
@@ -225,12 +346,26 @@ a:hover{
     
     
 }
+
+.prov_box{
+    display: flex;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+    box-shadow: 3px 5px 5px 1px #C6C6C6;
+    padding: 0px 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #text_date{
     padding: 5px;
     text-align: center;
     font-weight: bold;
     
 }
+
 .item_date{
     display: flex;
     height: 100%;
@@ -252,9 +387,64 @@ a:hover{
     opacity: 0.5;
 }
 
+.button_container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.ft-prov{
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+/* Estilos de cards */
+.card{
+    display: flex;
+    height: 260px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 100px;
+    padding: 10px;
+    flex-direction: column;
 
+    border: 1px solid #C6C6C6;
+    box-shadow: 3px 5px 5px 1px #C6C6C6;
+
+}
+.card-box{
+    display: flex; 
+    margin: 10px 0px; 
+}
+
+.ft-just-right{
+    justify-content: center;
+    text-align: right;
+    
+    width: 100%;
+}
+.card-box>img{
+    width: 100px;
+    height: 100px;
+}
+.button-card-box{
+    display: flex;
+    
+    
+    justify-content: space-between;
+    width: 70%;
+}
+.ft-just-center{
+    justify-content: center;
+}
+ .card-box>p{
+     margin: 3px;
+ } 
+ .card > p{
+        margin: 3px;
+ }
 /* Estilos de botones */
 .button_blue{
     background-color: #2F84D3 ;
@@ -263,6 +453,67 @@ a:hover{
     padding: 5px 10px ;
     color: white;
 
+}
+.button_red{
+    background-color: #D32F2F ;
+    border: transparent;
+    border-radius: 7px; 
+    padding: 5px 10px ;
+    color: white;
+
+}
+
+.button_green{
+    background-color: #6BCB5B ;
+    border: transparent;
+    border-radius: 7px; 
+    padding: 5px 10px ;
+    color: white;
+
+}
+
+.button_yellow{
+    background-color: #F8F14B ;
+    border: transparent;
+    border-radius: 7px; 
+    padding: 5px 10px ;
+    color: white;
+
+}
+
+
+.button_gray{
+    background-color: #C6C6C6 ;
+    border: transparent;
+    border-radius: 7px; 
+    padding: 5px 10px ;
+    color: white;
+
+}
+
+
+
+
+
+.ft-colum{
+    flex-direction: column;
+    
+}
+.ft-center{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.butt-comp{
+    margin: 10px 0px ;
+    top: 100px;
+}
+
+.ft-button-card{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
 }
 
 /* Mobile Styles */
