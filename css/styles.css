@@ -531,8 +531,9 @@ a:hover{
         position: relative;
     }
     nav{
-        margin-bottom: ;
+        margin-bottom:250px ;
     }
+
     nav ul {
         display: block;
         
@@ -570,18 +571,37 @@ a:hover{
         text-align:center;
     }
 
+
+    /* Estilos de cards */
+    .card{
+        
+        font-size: 10px;
+
+    }
+   
+    .card-box>img{
+        width: 70px;
+        height: 70px;
+    }
+    .button-card-box{
+    
+        width: 90%;
+    }
+    .ft-just-center{
+        justify-content: center;
+    }
+    
+
     /* Estilo Botones */
     .button_blue{
-        background-color: #2F84D3 ;
-        border: transparent;
+        
         border-radius: 5px; 
         padding: 3px 7px ;
         color: white;
         font-size: 9px;
     }
     .button_red{
-        background-color: #D32F2F ;
-        border: transparent;
+        
         border-radius: 5px; 
         padding: 3px 7px ;
         color: white;
@@ -589,17 +609,15 @@ a:hover{
     }
     
     .button_green{
-        background-color: #6BCB5B ;
-        border: transparent;
+        
         border-radius: 5px; 
         padding: 3px 7px ;
         color: white;
-        font-size: 10px;
+        font-size: 9px;
     }
     
     .button_yellow{
-        background-color: #F8F14B ;
-        border: transparent;
+        
         border-radius: 5px; 
         padding: 3px 7px ;
         color: black;
@@ -608,8 +626,7 @@ a:hover{
     
     
     .button_gray{
-        background-color: #C6C6C6 ;
-        border: transparent;
+        
         border-radius: 5px; 
         padding: 3px 7px ;
         color: white;
@@ -621,12 +638,58 @@ a:hover{
    
 /* Tablet Styles */
   @media only screen and (min-width: 401px) and (max-width: 980px) {
-    body {
-       
-        /* Yellow */
+    
+
+    nav{
+       font-size: 12px;
+    }
+    .log_option{
+        font-size: 10px;
     }
 
- 
+    /* Estilo Botones */
+    .button_blue{
+        
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 12px;
+    }
+    .button_red{
+        
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .button_green{
+        
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .button_yellow{
+        
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: black;
+        font-size: 12px;
+    }
+    
+    
+    .button_gray{
+        
+        border-radius: 5px; 
+        padding: 3px 7px ;
+        color: white;
+        font-size: 12px;
+    
+    }
+
+  
     
 
     
